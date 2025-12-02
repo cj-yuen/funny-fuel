@@ -1,4 +1,5 @@
-# Final Project Results!
+# Final Project
+Link to actual repo (needed to unfork for lfs): https://github.com/saordoe/funny-fuel
 
 ## Project planning: Design Doc (due 11/5)
 ### Design Doc
@@ -54,13 +55,13 @@ I followed this tree tutorial: https://www.sidefx.com/tutorials/procedural-styli
 
 ## Jimin: Procedural City Assets (building, poles, lights)
 ### Lampposts and Poles
-
+<img src="readmeAssets//streetlamp.png" width="600"/>
+<img src="readmeAssets//modernlamp.png" width="600"/>
 
 ## Christopher: Procedural Car Skeleton
 I researched car generators and did not really find any. Therefore, I planned out the overall car design myself and created a procedural skeleton for my car. 
 
 <img src="readmeAssets//carSkeleton.png" width="600"/>
-
 
 ## Overall Progress:
 We did not get as much done the first milestone as we hoped, as we spent a lot of time discussing ideas. Creating this number of procedural city assets proved to be more time consuming than expected. For the procedural car, it was hard to get started since there are not many resources online on procedural car generation. 
@@ -71,17 +72,13 @@ Finished procedural building not done in the last milestone:
 
 ### Procedural Building
 
-
 https://github.com/user-attachments/assets/22030a01-3493-47fe-8915-ec30c992f34c
-
-
 
 ### Procedural City
 I did the roads and varied the buildings. I heavily used the "Labs Lot Subdivision" node. 
 I used this city as a reference: https://www.artstation.com/artwork/kQ3wgn
 
 <img src="readmeAssets//milestone2city3.png" width="600"/>
-
 
 ## Jimin: 
 Finished procedural building and additional assets not done in the last milestone:
@@ -92,8 +89,8 @@ Finished procedural building and additional assets not done in the last mileston
 ## Christopher: Procedural Car Exterior
 I built upon my car skeleton and created the exterior from some of the openings left by the skeleton. Creating the side faces from the edges proved to be harder than I though initially as I had to account for the change in the edge numbering due to changing some of the parameters such as the front/back windows and the rear door top parameters.   
 <p float="left">
-  <img src="readmeAssets//carExterior1.png" height="300" />
-  <img src="readmeAssets//carExterior2.png" height="300" /> 
+  <img src="readmeAssets//carExterior1.png" height="250" />
+  <img src="readmeAssets//carExterior2.png" height="250" /> 
 </p>
 
 ## Overall Progress:
@@ -111,33 +108,10 @@ I added the sidewalks, which include two different types of lampposts and sheep.
 ## Christopher: Procedural Car Interior
 I created the interior of the car. 
 
+<p float="left">
+  <img src="readmeAssets//carInterior1.png" height="250" />
+  <img src="readmeAssets//carInterior2.png" height="250" /> 
+</p>
+
 # Overall Thoughts:
 Our initial project scope was too large, and we spent a lot of time trying to fix HDA/Houdini Engine issues; getting our assets from Houdini to Unity took a lot more work than we expected. We did accomplish our main goals of creating a driving game with a procedurally generated city and cars. We created all the assets ourselves! We unfortunately did not have enough time to make a weirdness parameter for our city. With more time, we definitely could have implemented that and polished up our game more. 
-
-## Milestone 1: Implementation part 1 (due 11/12)
-Begin implementing your engine! Don't worry too much about polish or parameter tuning -- this week is about getting together the bulk of your generator implemented. By the end of the week, even if your visuals are crude, the majority of your generator's functionality should be done.
-
-Put all your code in your forked repository.
-
-Submission: Add a new section to your README titled: Milestone #1, which should include
-- written description of progress on your project goals. If you haven't hit all your goals, what's giving you trouble?
-- Examples of your generators output so far
-We'll check your repository for updates. No need to create a new pull request.
-## Milestone 2: Implementation part 2 (due 11/24)
-We're over halfway there! This week should be about fixing bugs and extending the core of your generator. Make sure by the end of this week _your generator works and is feature complete._ Any core engine features that don't make it in this week should be cut! Don't worry if you haven't managed to exactly hit your goals. We're more interested in seeing proof of your development effort than knowing your planned everything perfectly. 
-
-Put all your code in your forked repository.
-
-Submission: Add a new section to your README titled: Milestone #3, which should include
-- written description of progress on your project goals. If you haven't hit all your goals, what did you have to cut and why? 
-- Detailed output from your generator, images, video, etc.
-We'll check your repository for updates. No need to create a new pull request.
-
-Come to class on the due date with a WORKING COPY of your project. We'll be spending time in class critiquing and reviewing your work so far.
-
-Submission:
-- Push all your code / files to your repository
-- Come to class ready to present your finished project
-- Update your README with two sections 
-  - final results with images and a live demo if possible
-  - post mortem: how did your project go overall? Did you accomplish your goals? Did you have to pivot?
