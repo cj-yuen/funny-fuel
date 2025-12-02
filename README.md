@@ -105,6 +105,8 @@ When we tried to import the city into Unity, we realized that the city had way t
 ## Jimin: Polish up city + Unity + Houdini Engine
 I added the sidewalks, which include two different types of lampposts and sheep. I imported the HDAs into Unity. I did a lot of debugging. Alice and I worked together to do the city chunking and driving in Unity. 
 
+<img src="readmeAssets//cityunity.png" width="800"/>
+
 ## Christopher: Procedural Car Interior
 I created the interior of the car. 
 
