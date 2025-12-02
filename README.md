@@ -32,10 +32,16 @@
 # Milestone 1: 
 ## Alice: Procedural City Assets (building, benches, trees, sheep)
 ### Procedural Sheep
-<img src="readmeAssets//sheep.png" width="600"/>
+
+
+
+https://github.com/user-attachments/assets/9b8030da-bfa2-4cea-aa43-082639065629
+
 
 ### Procedural Benches
-<img src="readmeAssets//bench.png" width="600"/>
+
+https://github.com/user-attachments/assets/a560f34a-9342-4538-aea1-65d383ff8e60
+
 
 ### Procedural Trees & Balcony
 I followed this tree tutorial: https://www.sidefx.com/tutorials/procedural-stylized-trees-with-houdini-and-ue4/
@@ -52,10 +58,11 @@ I followed this tree tutorial: https://www.sidefx.com/tutorials/procedural-styli
 
 ## Christopher: Procedural Car Skeleton
 I researched car generators and did not really find any. Therefore, I planned out the overall car design myself and created a procedural skeleton for my car. 
+
 <img src="readmeAssets//carSkeleton.png" width="600"/>
 
 
-## Progress:
+## Overall Progress:
 We did not get as much done the first milestone as we hoped, as we spent a lot of time discussing ideas. Creating this number of procedural city assets proved to be more time consuming than expected. For the procedural car, it was hard to get started since there are not many resources online on procedural car generation. 
 
 # Milestone 2:
@@ -63,6 +70,10 @@ We did not get as much done the first milestone as we hoped, as we spent a lot o
 Finished procedural building not done in the last milestone:
 
 ### Procedural Building
+
+
+https://github.com/user-attachments/assets/22030a01-3493-47fe-8915-ec30c992f34c
+
 
 
 ### Procedural City
@@ -85,7 +96,7 @@ I built upon my car skeleton and created the exterior from some of the openings 
   <img src="readmeAssets//carExterior2.png" height="300" /> 
 </p>
 
-## Progress:
+## Overall Progress:
 We made relatively good progress for this milestone. While we did not fully put together the city at this point, we have all the individual assets done. The car is coming along. 
 
 # Milestone 3 (Final):
@@ -98,7 +109,7 @@ When we tried to import the city into Unity, we realized that the city had way t
 I added the sidewalks, which include two different types of lampposts and sheep. I imported the HDAs into Unity. I did a lot of debugging. Alice and I worked together to do the city chunking and driving in Unity. 
 
 ## Christopher: Procedural Car Interior
-
+I created the interior of the car. 
 
 # Overall Thoughts:
 Our initial project scope was too large, and we spent a lot of time trying to fix HDA/Houdini Engine issues; getting our assets from Houdini to Unity took a lot more work than we expected. We did accomplish our main goals of creating a driving game with a procedurally generated city and cars. We created all the assets ourselves! We unfortunately did not have enough time to make a weirdness parameter for our city. With more time, we definitely could have implemented that and polished up our game more. 
