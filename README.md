@@ -75,7 +75,7 @@ Finished procedural building not done in the last milestone:
 https://github.com/user-attachments/assets/22030a01-3493-47fe-8915-ec30c992f34c
 
 ### Procedural City
-I did the roads and varied the buildings. I heavily used the "Labs Lot Subdivision" node. 
+I did the roads and varied the buildings. I had a much harder time than expected randomizing the buildings/windows, and this took a lot of time. I heavily used the "Labs Lot Subdivision" node. 
 I used this city as a reference: https://www.artstation.com/artwork/kQ3wgn
 
 <img src="readmeAssets//milestone2city3.png" width="600"/>
@@ -108,12 +108,14 @@ I added the sidewalks, which include two different types of lampposts and sheep.
 <img src="readmeAssets//cityunity.png" width="800"/>
 
 ## Christopher: Procedural Car Interior
-I created the interior of the car. 
+I created the interior of the car, finishing the procedural car. 
 
 <p float="left">
   <img src="readmeAssets//carInterior1.png" height="250" />
   <img src="readmeAssets//carInterior2.png" height="250" /> 
 </p>
 
+https://github.com/user-attachments/assets/909dd08e-9ba0-4b75-a788-5f73ed645652
+
 # Overall Thoughts:
-Our initial project scope was too large, and we spent a lot of time trying to fix HDA/Houdini Engine issues; getting our assets from Houdini to Unity took a lot more work than we expected. We did accomplish our main goals of creating a driving game with a procedurally generated city and cars. We created all the assets ourselves! We unfortunately did not have enough time to make a weirdness parameter for our city. With more time, we definitely could have implemented that and polished up our game more. 
+Our initial project scope was too large, and we spent a lot of time trying to fix HDA/Houdini Engine issues; getting our assets from Houdini to Unity took a lot more work than we expected. We did accomplish our main goal of creating a driving game with a procedurally generated city and cars. We created all the assets ourselves - but baking that many assets took an extremely long time. We unfortunately did not have enough time to make a weirdness parameter for our city. With more time, we definitely could have implemented that and polished up our game more. 
