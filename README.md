@@ -1,6 +1,4 @@
-# Final Project!
-
-This is it! The culmination of your procedural graphics experience this semester. For your final project, we'd like to give you the time and space to explore a topic of your choosing. You may choose any topic you please, so long as you vet the topic and scope with an instructor or TA. We've provided some suggestions below. The scope of your project should be roughly 1.5 homework assignments). To help structure your time, we're breaking down the project into 4 milestones:
+# Final Project Results!
 
 ## Project planning: Design Doc (due 11/5)
 ### Design Doc
@@ -31,19 +29,79 @@ This is it! The culmination of your procedural graphics experience this semester
 #### Timeline:
 - Create a week-by-week set of milestones for each person in your group. Make sure you explicitly outline what each group member's duties will be.
 
-##### Milestone 1: 
-- Alice: City Assets (building, benches, trees, sheep)
-- Jimin: City Assets (building, poles, lights, traffic stuff)
-- Christopher: Procedural Car Exterior
-##### Milestone 2:
-- Alice: Putting city together + weirdness & porting to unity
-- Jimin: Putting city together + weirdness & porting to unity
-- Christopher: Procedural Car Interior + porting to unity
-##### Final Milestone:
-- Alice: Driving/Game logic
-- Jimin: UI / HUD
-- Christopher: shaders + put everything together
+# Milestone 1: 
+## Alice: Procedural City Assets (building, benches, trees, sheep)
+### Procedural Sheep
+<img src="readmeAssets//sheep.png" width="600"/>
 
+### Procedural Benches
+<img src="readmeAssets//bench.png" width="600"/>
+
+### Procedural Trees & Balcony
+I followed this tree tutorial: https://www.sidefx.com/tutorials/procedural-stylized-trees-with-houdini-and-ue4/
+
+<p float="left">
+  <img src="readmeAssets//tree.png" width="400" />
+  <img src="readmeAssets//balcony.png" width="400" /> 
+</p>
+
+
+## Jimin: Procedural City Assets (building, poles, lights)
+### Lampposts and Poles
+
+
+## Christopher: Procedural Car Skeleton
+I researched car generators and did not really find any. Therefore, I planned out the overall car design myself and created a procedural skeleton for my car. 
+<img src="readmeAssets//carSkeleton.png" width="600"/>
+
+
+## Progress:
+We did not get as much done the first milestone as we hoped, as we spent a lot of time discussing ideas. Creating this number of procedural city assets proved to be more time consuming than expected. For the procedural car, it was hard to get started since there are not many resources online on procedural car generation. 
+
+# Milestone 2:
+## Alice: Putting city together
+Finished procedural building not done in the last milestone:
+
+### Procedural Building
+
+
+### Procedural City
+I did the roads and varied the buildings. I heavily used the "Labs Lot Subdivision" node. 
+I used this city as a reference: https://www.artstation.com/artwork/kQ3wgn
+
+<img src="readmeAssets//milestone2city3.png" width="600"/>
+
+
+## Jimin: 
+Finished procedural building and additional assets not done in the last milestone:
+
+### Procedural Building 
+<img src="readmeAssets//jiminBuilding.png" width="600"/>
+
+## Christopher: Procedural Car Exterior
+I built upon my car skeleton and created the exterior from some of the openings left by the skeleton. Creating the side faces from the edges proved to be harder than I though initially as I had to account for the change in the edge numbering due to changing some of the parameters such as the front/back windows and the rear door top parameters.   
+<p float="left">
+  <img src="readmeAssets//carExterior1.png" height="300" />
+  <img src="readmeAssets//carExterior2.png" height="300" /> 
+</p>
+
+## Progress:
+We made relatively good progress for this milestone. While we did not fully put together the city at this point, we have all the individual assets done. The car is coming along. 
+
+# Milestone 3 (Final):
+## Alice: Polish up city + Unity 
+When we tried to import the city into Unity, we realized that the city had way too many primitives (around 10 million). I had to reduce the city to around 150k primitives to get it to load into Unity. I added parks with trees and benches, reduced the polycount, and also had to remake all my materials into unity materials (which made them default grey in houdini). I did a lot of debugging. 
+
+<img src="readmeAssets//milestone3city.png" width="800"/>
+
+## Jimin: Polish up city + Unity + Houdini Engine
+I added the sidewalks, which include two different types of lampposts and sheep. I imported the HDAs into Unity. I did a lot of debugging. Alice and I worked together to do the city chunking and driving in Unity. 
+
+## Christopher: Procedural Car Interior
+
+
+# Overall Thoughts:
+Our initial project scope was too large, and we spent a lot of time trying to fix HDA/Houdini Engine issues; getting our assets from Houdini to Unity took a lot more work than we expected. We did accomplish our main goals of creating a driving game with a procedurally generated city and cars. We created all the assets ourselves! We unfortunately did not have enough time to make a weirdness parameter for our city. With more time, we definitely could have implemented that and polished up our game more. 
 
 ## Milestone 1: Implementation part 1 (due 11/12)
 Begin implementing your engine! Don't worry too much about polish or parameter tuning -- this week is about getting together the bulk of your generator implemented. By the end of the week, even if your visuals are crude, the majority of your generator's functionality should be done.
@@ -66,66 +124,9 @@ We'll check your repository for updates. No need to create a new pull request.
 
 Come to class on the due date with a WORKING COPY of your project. We'll be spending time in class critiquing and reviewing your work so far.
 
-## Final submission (due 12/1)
-Time to polish! Spen this last week of your project using your generator to produce beautiful output. Add textures, tune parameters, play with colors, play with camera animation. Take the feedback from class critques and use it to take your project to the next level.
-
 Submission:
 - Push all your code / files to your repository
 - Come to class ready to present your finished project
 - Update your README with two sections 
   - final results with images and a live demo if possible
   - post mortem: how did your project go overall? Did you accomplish your goals? Did you have to pivot?
-
-## Topic Suggestions
-
-### Create a generator in Houdini
-
-### A CLASSIC 4K DEMO
-- In the spirit of the demo scene, create an animation that fits into a 4k executable that runs in real-time. Feel free to take inspiration from the many existing demos. Focus on efficiency and elegance in your implementation.
-- Example: 
-  - [cdak by Quite & orange](https://www.youtube.com/watch?v=RCh3Q08HMfs&list=PLA5E2FF8E143DA58C)
-
-### A RE-IMPLEMENTATION
-- Take an academic paper or other pre-existing project and implement it, or a portion of it.
-- Examples:
-  - [2D Wavefunction Collapse Pokémon Town](https://gurtd.github.io/566-final-project/)
-  - [3D Wavefunction Collapse Dungeon Generator](https://github.com/whaoran0718/3dDungeonGeneration)
-  - [Reaction Diffusion](https://github.com/charlesliwang/Reaction-Diffusion)
-  - [WebGL Erosion](https://github.com/LanLou123/Webgl-Erosion)
-  - [Particle Waterfall](https://github.com/chloele33/particle-waterfall)
-  - [Voxelized Bread](https://github.com/ChiantiYZY/566-final)
-
-### A FORGERY
-Taking inspiration from a particular natural phenomenon or distinctive set of visuals, implement a detailed, procedural recreation of that aesthetic. This includes modeling, texturing and object placement within your scene. Does not need to be real-time. Focus on detail and visual accuracy in your implementation.
-- Examples:
-  - [The Shrines](https://github.com/byumjin/The-Shrines)
-  - [Watercolor Shader](https://github.com/gracelgilbert/watercolor-stylization)
-  - [Sunset Beach](https://github.com/HanmingZhang/homework-final)
-  - [Sky Whales](https://github.com/WanruZhao/CIS566FinalProject)
-  - [Snail](https://www.shadertoy.com/view/ld3Gz2)
-  - [Journey](https://www.shadertoy.com/view/ldlcRf)
-  - [Big Hero 6 Wormhole](https://2.bp.blogspot.com/-R-6AN2cWjwg/VTyIzIQSQfI/AAAAAAAABLA/GC0yzzz4wHw/s1600/big-hero-6-disneyscreencaps.com-10092.jpg)
-
-### A GAME LEVEL
-- Like generations of game makers before us, create a game which generates an navigable environment (eg. a roguelike dungeon, platforms) and some sort of goal or conflict (eg. enemy agents to avoid or items to collect). Aim to create an experience that will challenge players and vary noticeably in different playthroughs, whether that means procedural dungeon generation, careful resource management or an interesting AI model. Focus on designing a system that is capable of generating complex challenges and goals.
-- Examples:
-  - [Rhythm-based Mario Platformer](https://github.com/sgalban/platformer-gen-2D)
-  - [Pokémon Ice Puzzle Generator](https://github.com/jwang5675/Ice-Puzzle-Generator)
-  - [Abstract Exploratory Game](https://github.com/MauKMu/procedural-final-project)
-  - [Tiny Wings](https://github.com/irovira/TinyWings)
-  - Spore
-  - Dwarf Fortress
-  - Minecraft
-  - Rogue
-
-### AN ANIMATED ENVIRONMENT / MUSIC VISUALIZER
-- Create an environment full of interactive procedural animation. The goal of this project is to create an environment that feels responsive and alive. Whether or not animations are musically-driven, sound should be an important component. Focus on user interactions, motion design and experimental interfaces.
-- Examples:
-  - [The Darkside](https://github.com/morganherrmann/thedarkside)
-  - [Music Visualizer](https://yuruwang.github.io/MusicVisualizer/)
-  - [Abstract Mesh Animation](https://github.com/mgriley/cis566_finalproj)
-  - [Panoramical](https://www.youtube.com/watch?v=gBTTMNFXHTk)
-  - [Bound](https://www.youtube.com/watch?v=aE37l6RvF-c)
-
-### YOUR OWN PROPOSAL
-- You are of course welcome to propose your own topic . Regardless of what you choose, you and your team must research your topic and relevant techniques and come up with a detailed plan of execution. You will meet with some subset of the procedural staff before starting implementation for approval.
